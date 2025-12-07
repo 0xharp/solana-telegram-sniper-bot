@@ -16,7 +16,7 @@
 
 ## 📋 Overview
 
-This bot automatically monitors Telegram channels for Solana token addresses and executes trades with configurable stop-loss and take-profit strategies. Built with enterprise-grade architecture, it's designed for reliability, maintainability, and performance.
+This bot automatically monitors Telegram channels for Solana token addresses and executes trades with configurable stop-loss and take-profit strategies. Built with modular architecture, it's designed for reliability, maintainability, and performance.
 
 ## ✨ Features
 
@@ -322,8 +322,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/0xharp/solana-telegram-sniper-bot/issues)
 - **Twitter**: [@0xharp](https://twitter.com/0xharp)
-- **Discussions**: [GitHub Discussions](https://github.com/0xharp/solana-telegram-sniper-bot/discussions)
 - **Email**: [hello@0xharp.dev](mailto:hello@0xharp.dev)
+
+## 💖 Support The Project
+If you'd like to support development:
+
+**SOL Address:** `0xharp.sol`  
+🪙 → Payable in SOL, SPL tokens
+
+Thank you! 🙏
 
 ## ⚖️ Disclaimer
 
