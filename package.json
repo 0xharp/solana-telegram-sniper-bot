@@ -1,0 +1,50 @@
+{
+  "name": "solana-telegram-sniper-bot",
+  "version": "1.0.0",
+  "description": "Automated Solana trading bot with Telegram integration",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "solana",
+    "trading",
+    "bot",
+    "telegram",
+    "crypto",
+    "defi",
+    "jupiter"
+  ],
+  "author": "0xharp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/solana-telegram-sniper-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/solana-telegram-sniper-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/solana-telegram-sniper-bot#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "telegram": "^2.19.7",
+    "axios": "^1.6.2",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
