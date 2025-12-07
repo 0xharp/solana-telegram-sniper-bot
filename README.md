@@ -16,7 +16,7 @@
 
 ## 📋 Overview
 
-This bot automatically monitors Telegram channels for Solana token addresses and executes trades with configurable stop-loss and take-profit strategies. Built with enterprise-grade architecture, it's designed for reliability, maintainability, and performance.
+This bot automatically monitors Telegram channels for Solana token addresses and executes trades with configurable stop-loss and take-profit strategies. Built with modular architecture, it's designed for reliability, maintainability, and performance.
 
 ## ✨ Features
 
