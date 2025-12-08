@@ -30,8 +30,14 @@ export class TelegramMonitor {
         });
 
         Logger.success('Connected to Telegram!');
-        Logger.info('Session string:', this.client.session.save());
-        Logger.info('Save this session string in TELEGRAM_SESSION in .env for future runs\n');
+
+        if (!config.telegram.stringSession || config.telegram.stringSession.length === 0) {
+            const sessionString = this.client.session.save();
+            Logger.info('Session string:', sessionString);
+            Logger.info('Add this to your .env file:');
+        } else {
+            Logger.info('Using existing session from .env\n');
+        }
 
         this.setupMessageHandler();
     }

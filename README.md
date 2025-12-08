@@ -332,6 +332,10 @@ If you'd like to support development:
 
 Thank you! 🙏
 
+## 🎥 Demo Video
+Watch the full demo on X (Twitter):  
+https://x.com/0xharp/status/1998087928397115593
+
 ## ⚖️ Disclaimer
 
 This software is for educational purposes only. Use at your own risk. The authors are not responsible for any financial losses incurred while using this bot. Always do your own research and never invest more than you can afford to lose.
